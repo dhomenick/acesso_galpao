@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name        Automação Visitante IN
+// @namespace   http://tampermonkey.net/
+// @version     1.0
+// @description Automação para o site visitante.in
+// @match       https://visitante.in/cal*
+// @grant       none
+// ==/UserScript==
+
+
 // Função genérica para esperar e clicar no botão pelo texto
 async function clicarBotaoPorTexto(textoDesejado, tempoLimiteMs = 10000) {
     const inicio = Date.now();
